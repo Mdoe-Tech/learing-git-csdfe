@@ -2,9 +2,11 @@ package com.mdoe;
 
 public class Car {
        public PetroEngine engine;
+       private String issa;
 
-       public Car(){
+       public Car(String issa){
            engine = new PetroEngine();
+           this.issa = issa;
         }
 
         public void startCar(){
